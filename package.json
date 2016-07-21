@@ -1,0 +1,20 @@
+{
+  "name": "chartjs-demo",
+  "version": "1.0.0",
+  "description": "demo for chart.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chart.js"
+  ],
+  "author": "fatbigbright",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "chart.js": "^2.2.0-rc.2",
+    "jquery": "^3.1.0",
+    "jspdf": "^1.2.61",
+    "requirejs": "^2.2.0"
+  }
+}
