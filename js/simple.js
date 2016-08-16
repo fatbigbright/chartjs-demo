@@ -21,15 +21,6 @@ $(document).ready(function(){
       datasets: [
         {
           tension: 0,
-          label: 'Humidity',
-          yAxisID: 'HT',
-          data: [0.75, 0.8, 0.76, 0.85, 0.9, 0.68],
-          backgroundColor: 'rgba(200, 99, 0, 0.2)',
-          borderColor: 'rgba(255, 0, 0, 1)',
-          borderWidth: 1
-        },
-        {
-          tension: 0,
           label: 'Temperature',
           yAxisID: 'TT',
           data: [12, 19, 3, 5, 2, 3],
@@ -50,13 +41,6 @@ $(document).ready(function(){
             id: "TT",
             position: "left",
             ticks: {
-              beginAtZero: true
-            }
-          },
-          {
-            id: "HT",
-            position: "right",
-            ticks:{
               beginAtZero: true
             }
           }
