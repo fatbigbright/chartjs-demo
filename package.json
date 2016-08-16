@@ -12,6 +12,7 @@
   "author": "fatbigbright",
   "license": "Apache-2.0",
   "dependencies": {
+    "bootstrap": "^3.3.6",
     "chart.js": "^2.2.0-rc.2",
     "jquery": "^3.1.0",
     "jspdf": "^1.2.61",
